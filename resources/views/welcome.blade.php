@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>SPM Learning</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -122,7 +122,7 @@
                             </a>
 
                             <a
-                                href="https://laravel-news.com"
+                                href="https://www.malaysiakini.com/en/tag/spm"
                                 class="flex items-start gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)] ring-1 ring-white/[0.05] transition duration-300 hover:text-black/70 hover:ring-black/20 focus:outline-none focus-visible:ring-[#FF2D20] lg:pb-10"
                             >
                                 <div class="flex size-12 shrink-0 items-center justify-center rounded-full bg-[#FF2D20]/10 sm:size-16">
@@ -133,7 +133,7 @@
                                     <h2 class="text-xl font-semibold text-black">Laravel News</h2>
 
                                     <p class="mt-4 text-sm/relaxed">
-                                        Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                        SPM Learning Platform is a community-driven portal and newsletter aggregating all of the latest and most important news in Malaysia, including new package releases and tutorials
                                     </p>
                                 </div>
 
