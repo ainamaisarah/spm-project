@@ -46,8 +46,6 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           <li><a class="nav-link scrollto" href="/login">Log In</a></li>
-          <li><a class="nav-link scrollto" href="/about">About</a></li>
-
 
 
         <i class="bi bi-list mobile-nav-toggle"></i>
