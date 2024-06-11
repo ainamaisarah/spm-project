@@ -4,7 +4,7 @@
     <div class='container'>
         <form action="{{route('login')}}" method="POSTclass="ms-auto mr-auto" style="width: 500px">
             <div class="mb-3">
-                <label class="form-label">Email Address</label>
+                <label class="form-label">Email Address Home</label>
                 <input type="name" class="form-control" name="email">
             </div>
             <div class="mb-3">
