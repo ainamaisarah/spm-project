@@ -12,7 +12,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/news', function () {
-    echo "News Today";
+    return view('mainpage');
 });
 
 // Define the middleware group for authenticated routes
@@ -23,6 +23,6 @@ Route::middleware([
 
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('chapter.new');
+        return view('dashboard');
     })->middleware(['auth','verified'])->name('dashboard');
 });
