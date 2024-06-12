@@ -29,6 +29,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    /* Additional CSS */
+    .scrolled .logo h1 {
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -37,20 +43,20 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/">BrainBoost</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="/" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a href="/" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="" class="img-fluid">
+        <h1 id="brainboost-text" class="ms-2">BrainBoost</h1>
+      </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           <li><a class="nav-link scrollto" href="/login">Log In</a></li>
-          {{-- <li><a class="nav-link scrollto" href="/refelctive">Reflective</a></li>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          {{-- <li><a class="nav-link scrollto" href="/reflective">Reflective</a></li>
           <li><a class="nav-link scrollto" href="/chapter">Chapter</a></li> --}}
-
-
-
+        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -94,6 +100,17 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      var header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
 
 </body>
 
