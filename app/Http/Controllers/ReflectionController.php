@@ -11,7 +11,7 @@ class ReflectionController extends Controller
     public function index()
     {
         $reflections = Reflection::all();
-        return view('reflection', compact('reflection'));
+        return view('reflection.index', compact('reflections'));
     }
 
     // Show the form for creating a new reflection
@@ -24,12 +24,16 @@ class ReflectionController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'content' => 'required',
+            'subject' => 'required|string|max:255',
+            'content' => 'required|string',
         ]);
 
-        Reflection::create($request->all());
+        Reflection::create([
+            'subject' => $request->subject,
+            'content' => $request->content,
+        ]);
 
-        return redirect()->route('reflection')
+        return redirect()->route('reflection.index')
             ->with('success', 'Reflection created successfully.');
     }
 
@@ -43,12 +47,16 @@ class ReflectionController extends Controller
     public function update(Request $request, Reflection $reflection)
     {
         $request->validate([
-            'content' => 'required',
+            'subject' => 'required|string|max:255',
+            'content' => 'required|string',
         ]);
 
-        $reflection->update($request->all());
+        $reflection->update([
+            'subject' => $request->subject,
+            'content' => $request->content,
+        ]);
 
-        return redirect()->route('reflection')
+        return redirect()->route('reflection.index')
             ->with('success', 'Reflection updated successfully');
     }
 
@@ -57,7 +65,7 @@ class ReflectionController extends Controller
     {
         $reflection->delete();
 
-        return redirect()->route('reflection')
+        return redirect()->route('reflection.index')
             ->with('success', 'Reflection deleted successfully');
     }
 }

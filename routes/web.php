@@ -28,5 +28,7 @@ Route::middleware([
     })->middleware(['auth','verified'])->name('dashboard');
 });
 
-Route::get('/reflective', [ReflectionController::class, 'index'])->name('reflective.index');
+Route::get('/reflections', [ReflectionController::class, 'index'])->name('reflections.index');
+Route::get('/reflections/create', [ReflectionController::class, 'create'])->name('reflections.create');
+Route::post('/reflections', [ReflectionController::class, 'store'])->name('reflections.store');
 
