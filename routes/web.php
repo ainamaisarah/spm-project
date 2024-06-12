@@ -26,3 +26,4 @@ Route::middleware([
         return view('chapter.new');
     })->middleware(['auth','verified'])->name('dashboard');
 });
+
