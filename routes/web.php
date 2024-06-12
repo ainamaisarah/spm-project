@@ -23,6 +23,6 @@ Route::middleware([
 
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('admin.new');
+        return view('chapter.new');
     })->middleware(['auth','verified'])->name('dashboard');
 });

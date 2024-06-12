@@ -44,8 +44,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="/register">Register</a></li>
-          <li><a class="nav-link scrollto" href="/login">Log In</a></li>
+          <li><a class="nav-link scrollto" href="/reflective">Reflective</a></li>
+          <li><a class="nav-link scrollto" href="/chapter">Chapter</a></li>
+          <li><a class="nav-link scrollto" href="/profile">Profile</a></li>
 
 
         <i class="bi bi-list mobile-nav-toggle"></i>
