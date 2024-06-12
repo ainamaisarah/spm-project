@@ -10,14 +10,14 @@ class ReflectionController extends Controller
     // Display all reflections
     public function index()
     {
-        $reflections = Reflection::all();
-        return view('reflection.index', compact('reflections'));
+        $reflection = Reflection::all();
+        return view('reflection.index', compact('reflection'));
     }
 
     // Show the form for creating a new reflection
     public function create()
     {
-        return view('reflections.create');
+        return view('reflection.create');
     }
 
     // Store a newly created reflection in storage
@@ -40,7 +40,7 @@ class ReflectionController extends Controller
     // Show the form for editing the specified reflection
     public function edit(Reflection $reflection)
     {
-        return view('reflections.edit', compact('reflection'));
+        return view('reflection.edit', compact('reflection'));
     }
 
     // Update the specified reflection in storage
