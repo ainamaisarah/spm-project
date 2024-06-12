@@ -7,13 +7,22 @@ Route::get('/', function () {
     return view('mainpage');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/news', function () {
+    echo "News Today";
+});
+
 // Define the middleware group for authenticated routes
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
+
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+        return view('admin.new');
+    })->middleware(['auth','verified'])->name('dashboard');
 });

@@ -17,7 +17,7 @@
   </div><!-- End Hero Section -->
 
   <main id="main">
-        <!-- ======= Portfolio Section ======= -->
+        {{-- <!-- ======= Portfolio Section ======= -->
         <section id="work" class="portfolio-mf sect-pt4 route">
             <div class="container">
               <div class="row">
@@ -181,11 +181,11 @@
 
               </div>
             </div>
-          </section><!-- End Portfolio Section -->
+          </section><!-- End Portfolio Section --> --}}
 
     <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
-      <div class="container position-relative">
+    {{-- <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)"> --}}
+      {{-- <div class="container position-relative">
         <div class="row">
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box counter-box pt-4 pt-md-0">
@@ -211,7 +211,7 @@
           </div>
 
       </div>
-    </div><!-- End Counter Section -->
+    </div><!-- End Counter Section --> --}}
 
     <!-- ======= Blog Section ======= -->
     <section id="blog" class="blog-mf sect-pt4 route">
