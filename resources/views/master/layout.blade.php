@@ -53,7 +53,6 @@
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           <li><a class="nav-link scrollto" href="/login">Log In</a></li>
-          <li><a class="nav-link scrollto" href="/login">Chapter</a></li>
           <!-- Uncomment below if you prefer to use an image logo -->
           {{-- <li><a class="nav-link scrollto" href="/reflective">Reflective</a></li>
           <li><a class="nav-link scrollto" href="/chapter">Chapter</a></li> --}}
