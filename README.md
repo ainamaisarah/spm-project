@@ -49,19 +49,19 @@ The main objectives of the SPM Student Learning Platform are:
 - Send password reset link to user’s email
 - Form to set a new password
 
-### Chapter
+### Subject
 
-#### i) Add Chapter
-- Form to enter chapter details (title, content)
-- Save chapter details to the database
-- Display new chapter in the chapter list
-- 
-#### ii) View List of Chapters
+#### i) Add Subject
+- Form to enter subject details (subject, topic)
+- Save subject details to the database
+- Display new subject in the subject list
+  
+#### ii) View List of Subject
 - Display list of subject added
 - Options to edit or delete
-- 
-#### iii) Edit Chapter
-- Allow user to edit existing chapter details
+  
+#### iii) Edit Subject Details
+- Allow user to edit existing subject details
 - Form to edit chapter details
 - Update chapter details in the database after submission
 
