@@ -115,7 +115,12 @@ The main objectives of the SPM Student Learning Platform are:
 ## 5.0 Sequence Diagram
 ![SEQUENCE Diagram](https://raw.githubusercontent.com/nadhirahanwar/WebApp-GroupProject-/main/SEQ%20DIAGRAM.jpg)
 
-## 6.0 REFERENCES
+## 6.0 Project System Captured Screen
+
+## 7.0 Challenges/Difficulties
+1. 
+
+## 8.0 REFERENCES
   
 1. SPMFlix. (2024, May 3). SPMFlix - Malaysia’s Largest Free Online Learning Platform
 https://www.spmflix.com/ 
