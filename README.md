@@ -51,27 +51,24 @@ The main objectives of the SPM Student Learning Platform are:
 
 ### Chapter
 
-#### i) Search
-- Allow students to search for subjects and chapters
-- Search bar to input keywords
-
-#### ii) Add Chapter
+#### i) Add Chapter
 - Form to enter chapter details (title, content)
 - Save chapter details to the database
 - Display new chapter in the chapter list
-
+- 
+#### ii) View List of Chapters
+- Display list of subject added
+- Options to edit or delete
+- 
 #### iii) Edit Chapter
 - Allow user to edit existing chapter details
 - Form to edit chapter details
 - Update chapter details in the database after submission
 
-#### iv) Delete Chapter
+#### iv) Delete Subject
 - Pop-up box to confirm deletion
 - Remove chapter from database
 
-#### v) View List of Chapters
-- Display list of chapters available for a subject
-- Options to view, edit, or delete
 
 ### Reflection Journal
 
