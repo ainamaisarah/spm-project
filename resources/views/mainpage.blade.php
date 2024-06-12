@@ -8,13 +8,32 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h1 class="hero-title mb-4">SPM Student Learning Platform</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
-          <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="about" role="button">ABOUT ME</a></p>
+          <h1 class="hero-title mb-4">SPM Learning Platform</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Additional Mathematics, Bahasa Melayu, English, Physics, Chemistry Science, Mathematics, Biology Science"></span></p>
+          <p class="pt-3">
+            <a class="btn btn-primary btn-custom js-scroll px-4" href="about" role="button">ABOUT ME</a>
+          </p>
         </div>
       </div>
     </div>
   </div><!-- End Hero Section -->
+  <style>
+    .btn-custom {
+      background-color: #cbc0a9; /* Green background */
+      border: none; /* Remove borders */
+      color: rgb(0, 0, 0); /* White text */
+      padding: 14px 28px; /* Some padding */
+      font-size: 20px; /* Increase font size */
+      cursor: pointer; /* Pointer/hand icon */
+      border-radius: 30px; /* Rounded corners */
+      transition: all 0.6s ease-in-out; /* Smooth transition */
+    }
+
+    .btn-custom:hover {
+      background-color: #483521; /* Darker green */
+      transform: scale(1.1); /* Slightly larger on hover */
+    }
+  </style>
 
   <main id="main">
         {{-- <!-- ======= Portfolio Section ======= -->
@@ -213,8 +232,8 @@
       </div>
     </div><!-- End Counter Section --> --}}
 
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
+    <!-- ======= New Section ======= -->
+    <section id="new" class="new-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -232,15 +251,15 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                <a href="new1"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Travel</h6>
+                    <h6 class="category">RESULT SPM</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="new1">See more for details</a></h3>
                 <p class="card-description">
                     Stay updated with the latest SPM news from News Today.
                 </p>
@@ -250,11 +269,11 @@
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
+                    <span class="author">Berita Harian</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock"></span> 1 hour past
                 </div>
               </div>
             </div>
@@ -262,7 +281,7 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+                <a href="new2"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
