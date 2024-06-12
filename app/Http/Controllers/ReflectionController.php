@@ -11,7 +11,7 @@ class ReflectionController extends Controller
     public function index()
     {
         $reflections = Reflection::all();
-        return view('reflections.index', compact('reflections'));
+        return view('reflection', compact('reflection'));
     }
 
     // Show the form for creating a new reflection
@@ -29,7 +29,7 @@ class ReflectionController extends Controller
 
         Reflection::create($request->all());
 
-        return redirect()->route('reflections.index')
+        return redirect()->route('reflection')
             ->with('success', 'Reflection created successfully.');
     }
 
@@ -48,7 +48,7 @@ class ReflectionController extends Controller
 
         $reflection->update($request->all());
 
-        return redirect()->route('reflections.index')
+        return redirect()->route('reflection')
             ->with('success', 'Reflection updated successfully');
     }
 
@@ -57,7 +57,7 @@ class ReflectionController extends Controller
     {
         $reflection->delete();
 
-        return redirect()->route('reflections.index')
+        return redirect()->route('reflection')
             ->with('success', 'Reflection deleted successfully');
     }
 }

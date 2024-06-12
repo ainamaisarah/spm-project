@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReflectionController;
 
 // Define the route for the main page
 Route::get('/', function () {
@@ -26,4 +27,6 @@ Route::middleware([
         return view('chapter.new');
     })->middleware(['auth','verified'])->name('dashboard');
 });
+
+Route::get('/reflective', [ReflectionController::class, 'index'])->name('reflective.index');
 
