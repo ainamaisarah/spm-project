@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReflectionController;
 
 // Define the route for the main page
 Route::get('/', function () {
@@ -26,3 +27,8 @@ Route::middleware([
         return view('dashboard');
     })->middleware(['auth','verified'])->name('dashboard');
 });
+
+Route::get('/reflections', [ReflectionController::class, 'index'])->name('reflections.index');
+Route::get('/reflections/create', [ReflectionController::class, 'create'])->name('reflections.create');
+Route::post('/reflections', [ReflectionController::class, 'store'])->name('reflections.store');
+

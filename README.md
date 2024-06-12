@@ -49,29 +49,27 @@ The main objectives of the SPM Student Learning Platform are:
 - Send password reset link to user’s email
 - Form to set a new password
 
-### Chapter
 
-#### i) Search
-- Allow students to search for subjects and chapters
-- Search bar to input keywords
+### Subject
 
-#### ii) Add Chapter
-- Form to enter chapter details (title, content)
-- Save chapter details to the database
-- Display new chapter in the chapter list
-
-#### iii) Edit Chapter
-- Allow user to edit existing chapter details
+#### i) Add Subject
+- Form to enter subject details (subject, topic)
+- Save subject details to the database
+- Display new subject in the subject list
+  
+#### ii) View List of Subject
+- Display list of subject added
+- Options to edit or delete
+  
+#### iii) Edit Subject Details
+- Allow user to edit existing subject details
 - Form to edit chapter details
 - Update chapter details in the database after submission
 
-#### iv) Delete Chapter
+#### iv) Delete Subject
 - Pop-up box to confirm deletion
 - Remove chapter from database
 
-#### v) View List of Chapters
-- Display list of chapters available for a subject
-- Options to view, edit, or delete
 
 ### Reflection Journal
 
@@ -93,6 +91,7 @@ The main objectives of the SPM Student Learning Platform are:
 #### iv) View
 - Display list of reflections written for every topic
 - Options to view, edit, or delete
+
 
 ### Profile
 
@@ -118,7 +117,12 @@ The main objectives of the SPM Student Learning Platform are:
 ## 5.0 Sequence Diagram
 ![SEQUENCE Diagram](https://raw.githubusercontent.com/nadhirahanwar/WebApp-GroupProject-/main/SEQ%20DIAGRAM.jpg)
 
-## 6.0 REFERENCES
+## 6.0 Project System Captured Screen
+
+## 7.0 Challenges/Difficulties
+1. 
+
+## 8.0 REFERENCES
   
 1. SPMFlix. (2024, May 3). SPMFlix - Malaysia’s Largest Free Online Learning Platform
 https://www.spmflix.com/ 

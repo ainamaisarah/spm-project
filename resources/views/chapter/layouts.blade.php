@@ -44,8 +44,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="/reflective">Reflective</a></li>
-          <li><a class="nav-link scrollto" href="/chapter">Chapter</a></li>
+          <li><a class="nav-link scrollto" href="/reflection">Reflection</a></li>
+          <li><a class="nav-link scrollto" href="/chapter">Subject</a></li>
           <li><a class="nav-link scrollto" href="/profile">Profile</a></li>
 
 
