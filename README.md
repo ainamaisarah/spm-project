@@ -49,6 +49,7 @@ The main objectives of the SPM Student Learning Platform are:
 - Send password reset link to user’s email
 - Form to set a new password
 
+
 ### Subject
 
 #### i) Add Subject
@@ -90,6 +91,7 @@ The main objectives of the SPM Student Learning Platform are:
 #### iv) View
 - Display list of reflections written for every topic
 - Options to view, edit, or delete
+
 
 ### Profile
 
