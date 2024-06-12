@@ -251,26 +251,23 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="new1"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
+                <a href="new1"><img src="assets/img/news-1.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">RESULT SPM</h6>
+                    <h6 class="category">THE STAR</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="new1">See more for details</a></h3>
+                <h3 class="card-title"><a href="https://www.thestar.com.my/news/nation/2024/06/10/perak-to-help-655-spm-absentees-enrol-in-tvet">See more for details</a></h3>
                 <p class="card-description">
-                    Stay updated with the latest SPM news from News Today.
+                    Perak to help 655 SPM absentees enrol in TVET
                 </p>
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
-                  <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Berita Harian</span>
-                  </a>
                 </div>
                 <div class="post-date">
                   <span class="bi bi-clock"></span> 1 hour past
@@ -281,30 +278,25 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="new2"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
+                <a href="new2"><img src="assets/img/news-2.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+                    <h6 class="category">MALAY MAIL</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
+                <h3 class="card-title"><a href="https://www.malaymail.com/news/malaysia/2024/06/11/works-ministry-plans-to-construct-upgrade-25-schools-in-sarawak-says-deputy-minister/139236">See more for details</a></h3>
+                <p class="card-description"> Works Ministry plans to construct, upgrade 25 schools in Sarawak, says deputy minister </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
                   </a>
                 </div>
                 <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                  <span class="bi bi-clock"></span>2 days ago
                 </div>
               </div>
             </div>
@@ -312,26 +304,23 @@
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
+                <a href="blog-single.html"><img src="assets/img/news-3.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="card-body">
                 <div class="card-category-box">
                   <div class="card-category">
-                    <h6 class="category">Web Design</h6>
+                    <h6 class="category">NEW STRAITS TIMES</h6>
                   </div>
                 </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+                <h3 class="card-title"><a href="https://www.nst.com.my/lifestyle/groove/2024/06/1062522/showbiz-educate-restaurant-canteen-staff-about-food-hygiene-anis">See more for details</a></h3>
                 <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
+                    #SHOWBIZ: Educate restaurant, canteen staff about food hygiene - Anis Nabilah
                 </p>
               </div>
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
                     <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
                   </a>
                 </div>
                 <div class="post-date">
